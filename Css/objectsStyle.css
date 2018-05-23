@@ -1,5 +1,4 @@
 .but {
-	/*position: relative;*/
 	text-align: center;
 	display: block;
 	border: none;
@@ -49,15 +48,21 @@
 .butFireW:hover {
 	background-color: purple;
 }
+.butgotoPage:hover {
+	transform: rotateZ(0deg)
+}
 
+#gotoPage {
+	display: none;
+}
 
 #image {
 	position: absolute;
-	right: 10px;
-	top: 10px;
+	left: 0px;
+	top: 0px;
 
-	width: 80%;
-	height: 90%;
+	width: 100%;
+	height: 100%;
 	border: none;
 	transition-duration: 0.5s;
 	opacity: 0.9;
@@ -66,4 +71,14 @@
 #image:hover {
 	opacity: 1;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
+}
+
+#ifm {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+
+	border: none;
+	width: 100%;
+	height: 100%;
 }
