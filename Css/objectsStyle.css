@@ -67,16 +67,11 @@
 .dropdown:hover .dropdown-content {
     display: block;
     position: relative;
-    animation: animate 1s;
-}
-
-.dropdown:hover .but{
-	position: relative;
-	animation: animate 0.5s;
+    animation: animate 0.5s;
 }
 @keyframes animate {
 	0%{top: 0px; color: white;}
-	50%{top: 15px;}
+	50%{top: 10px;}
 	100%{top: 0px; color: black;}
 }
 
